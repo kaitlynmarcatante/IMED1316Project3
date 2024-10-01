@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive HTML Table with Pure CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="Table">
+        <section class="table__header">
+            <h1>Birds in San Antonio &#128039; &#128038;</h1>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> id </th>
+                        <th> Species </th>
+                        <th> Scientific Name </th>
+                        <th> Habitat </th>
+                        <th> Family </th>
+                        <th> Conservation </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> <img src="Birds/EgyptianGoose.JPG" alt="">Egyptian Goose</td>
+                        <td> Alopochen aegyptiaca </td>
+                        <td> Lakes and Ponds </td>
+                        <td> Anatidae </td>
+                        <td> Least Concern </td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td> <img src="Birds/Neotropic Cormorant.JPG" alt="">Neotropic Cormorant</td>
+                        <td> Nannopterum brasilianum </td>
+                        <td> Lakes and Ponds </td>
+                        <td> Phalacrocoracidae </td>
+                        <td> Low Concern </td>
+                    </tr>
+                    <tr>
+                        <td> 3 </td>
+                        <td> <img src="Birds/Mallard.JPG" alt="">Mallard</td>
+                        <td> Anas platyrhynchos </td>
+                        <td> Lakes and Ponds </td>
+                        <td> Anatidae </td>
+                        <td> Low Concern </td>
+                    </tr>
+                    <tr>
+                        <td> 4 </td>
+                        <td> <img src="Birds/Mascovy Duck.JPG" alt="">Muscovy Duck</td>
+                        <td> Cairina moschata </td>
+                        <td> Forests </td>
+                        <td> Anatidae </td>
+                        <td> Declining </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hr091LOdeUw?si=_TRUzWi1jIn_irfm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <ul>
+            <li>Least Concern - species that are not threatened by extinction </li>
+            <li>Low Concern - species that are not endangered and are not a focus of conservation efforts</li>
+            <li>Declining - focuses on ways of finding, diagnosing, and stopping population decline  </li>
+        </ul>
+        <ol>
+            <li>Anatidae - water birds that consist of ducks, geese, and swans </li>
+            <li>Phalacrocoracidae - aquatic birds often known as cormorants and shags</li>
+        </ol>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+        <p id="demo"></p>
+</body>
+</html>
